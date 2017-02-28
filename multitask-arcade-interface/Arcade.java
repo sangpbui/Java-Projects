@@ -6,7 +6,7 @@ import javax.swing.border.EmptyBorder;
 
 public class Arcade extends JFrame {
 	public Arcade() {
-		super("AP Java Arcade");
+		super("Java Arcade");
 
 		ArcadeFriendly game = new UserPanel(600, 450);
 		GameStats display = new GameStats(game);
